@@ -1,0 +1,112 @@
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+} section{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+} section header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end ;
+    padding: 20px;
+} section header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} section header ul li{
+   list-style: none;
+   margin-left: 20px;
+} section header ul li a{
+    color:black;
+    text-decoration: none;
+    font-size: 13px;
+}  section header ul li button{
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 8px 14px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor:pointer  ;
+} section .main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}  section .main .searchbox{
+    position: relative;
+    width: 100%;
+    margin-top: 20%;
+} section .main .searchbox .search{
+    width: 100%;
+    padding: 13px 70px;
+    border: 1px solid gainsboro;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 1px 4px;
+} section .main .searchbox{
+    transform: translate(  -70px  ,-135px);
+} section .main .searchbox .icons{
+    position: absolute;
+    top: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 12px 70px;
+    align-items: center;
+    pointer-events: none;
+} section .main .searchbox .icons .se{
+    position: absolute;
+    transform: translate(-55px , -5px);
+} section .main .searchbox .icons .mi{
+    position: absolute;
+    transform: translate(35px); 
+} section .main .buttons { 
+    transform: translatey(-115px);
+} section .main .buttons button{
+    margin: 0px 15px;
+    font-size: 16px;
+    border: 0px solid gainsboro;
+    outline: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    box-shadow:0px 2px 4px;
+} section .main .LANG {
+   transform: translatey(-95px);
+   text-shadow: 1px 5px 9px;
+} section .main .buttons button:hover{
+    background-color: whitesmoke;
+} section .main .searchbox .search:hover{
+    background-color: whitesmoke;
+} section .footer{
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(213, 215, 218, 0.5);
+} section .footer .row{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-top: 1px solid white;
+} section .footer .row ul{
+    display:flex;
+}  section .footer .row ul li{
+    list-style: none;
+} section .footer .row ul li a{
+    text-decoration: none;
+    color:navy;
+    margin-right:15px;
+}
